@@ -10,10 +10,10 @@ A docker image for [glowing-bear](https://github.com/glowing-bear/glowing-bear) 
 
 # Supported tags
 
-| Tags | Size | Layers |
-|-|-|-|
-| `latest`, `stable` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/latest?style=flat-square) | ![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/j33r/glowing-bear/latest?style=flat-square) |
-| `dev` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/dev?style=flat-square) | ![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/j33r/glowing-bear/dev?style=flat-square) |
+| Tags | Size |
+|-|-|
+| `latest`, `stable` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/latest?style=flat-square) |
+| `dev` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/dev?style=flat-square) |
 
 # What is glowing-bear ?
 
