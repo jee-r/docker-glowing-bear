@@ -4,7 +4,7 @@
 [![Drone (cloud) dev build](https://img.shields.io/drone/build/jee-r/docker-glowing-bear/dev?label=dev%20build&style=flat-square)](https://cloud.drone.io/jee-r/docker-glowing-bear)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/j33r/glowing-bear?style=flat-square)](https://microbadger.com/images/j33r/glowing-bear)
 [![Docker Pulls](https://img.shields.io/docker/pulls/j33r/glowing-bear?style=flat-square)](https://hub.docker.com/r/j33r/glowing-bear)
-[![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/glowing-bear-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/glowing-bear)
+[![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/glowing%E2%88%92bear-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/glowing-bear)
 
 A docker image for [glowing-bear](https://github.com/glowing-bear/glowing-bear) ![glowing-bear logo](https://raw.githubusercontent.com/glowing-bear/glowing-bear/master/src/assets/img/favicon.png)
 
