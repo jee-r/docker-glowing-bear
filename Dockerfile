@@ -11,7 +11,7 @@ FROM nginxinc/nginx-unprivileged:latest
 
 LABEL name="docker-glowing-bear" \
       maintainer="Jee jee@jeer.fr" \
-      description="A web client for WeeChat" \"
+      description="A web client for WeeChat" \
       url="https://www.glowing-bear.org/" \
       org.label-schema.vcs-url="https://github.com/jee-r/docker-glowing-bear" \
       org.opencontainers.image.source="https://github.com/jee-r/docker-glowing-bear"
