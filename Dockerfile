@@ -1,7 +1,7 @@
 FROM node:lts-alpine3.14 AS builder
 
 RUN apk add --no-cache --virtual=base --upgrade \
-    git && \
+      git && \
     git clone https://github.com/glowing-bear/glowing-bear.git && \
     cd glowing-bear && \
     npm install && \
