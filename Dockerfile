@@ -9,11 +9,12 @@ RUN apk add --no-cache --virtual=base --upgrade \
 
 FROM nginxinc/nginx-unprivileged:latest
 
-LABEL name="docker-weechat" \
+LABEL name="docker-glowing-bear" \
       maintainer="Jee jee@jeer.fr" \
-      description="WeeChat (Wee Enhanced Environment for Chat) is a free chat client, fast and light, designed for many operating systems." \
-      url="https://weechat.org" \
-      org.label-schema.vcs-url="https://github.com/jee-r/docker-weechat"
+      description="A web client for WeeChat" \"
+      url="https://www.glowing-bear.org/" \
+      org.label-schema.vcs-url="https://github.com/jee-r/docker-glowing-bear" \
+      org.opencontainers.image.source="https://github.com/jee-r/docker-glowing-bear"
 
 COPY --from=builder /glowing-bear/build/ /usr/share/nginx/html/
 
