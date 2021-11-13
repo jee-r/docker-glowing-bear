@@ -1,4 +1,4 @@
-FROM node:alpine AS builder
+FROM node:lts-alpine3.14 AS builder
 
 RUN apk add --no-cache --virtual=base --upgrade \
     git && \
