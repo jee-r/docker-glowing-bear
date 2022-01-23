@@ -1,11 +1,11 @@
-FROM node:lts-alpine3.14 AS builder
+FROM node:lts-alpine3.15 AS builder
 
 RUN apk add --no-cache --virtual=base --upgrade \
       git && \
     git clone https://github.com/glowing-bear/glowing-bear.git && \
     cd glowing-bear && \
     npm install && \
-    npm run build
+    npm run build 
 
 FROM nginxinc/nginx-unprivileged:latest
 
