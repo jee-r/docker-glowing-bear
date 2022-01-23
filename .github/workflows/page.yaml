@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v2
       - name: build static files
         run: |
+          git clone https://github.com/glowing-bear/glowing-bear.git
+          cd glowing-bear
           npm install
           npm build
       - name: Deploy to GitHub Pages
@@ -24,6 +26,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: build
+          build_dir: glowing-bear/build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
