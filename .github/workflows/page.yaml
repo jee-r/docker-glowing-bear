@@ -17,7 +17,6 @@ jobs:
         uses: actions/checkout@v2
               name: Gen dummy page
         run: |
-          mkdir public
           npm install
           npm build
       - name: Deploy to GitHub Pages
