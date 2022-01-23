@@ -1,8 +1,8 @@
 # docker-glowing-bear
 
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/j33r/glowing-bear?style=flat-square)](https://microbadger.com/images/j33r/glowing-bear)
-[![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/glowing-bear-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/glowing-bear)
-[![ghcr.io](https://img.shields.io/badge/ghrc%2Eio-jee%2D-r/glowing-bear-%232496ED?logo=github&style=flat-square)](https://ghcr.io/jee-r/glowing-bear)
+[![DockerHub](https://img.shields.io/badge/Dockerhub-j33r/glowing%2D-bear-%232496ED?logo=docker&style=flat-square)](https://hub.docker.com/r/j33r/glowing-bear)
+[![ghcr.io](https://img.shields.io/badge/ghrc%2Eio-jee%2D-r/glowing%2D-bear-%232496ED?logo=github&style=flat-square)](https://ghcr.io/jee-r/glowing-bear)
 
 A docker image for [glowing-bear](https://github.com/glowing-bear/glowing-bear) ![glowing-bear logo](https://raw.githubusercontent.com/glowing-bear/glowing-bear/master/src/assets/img/favicon.png)
 
