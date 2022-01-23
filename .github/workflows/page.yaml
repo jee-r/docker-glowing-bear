@@ -1,0 +1,30 @@
+name: Deploy
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - dev
+  schedule:
+    - cron: '33 3 * * 1'
+
+jobs:
+  build:
+    name: Build and publish page
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+              name: Gen dummy page
+        run: |
+          mkdir public
+          npm install
+          npm build
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
