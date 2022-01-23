@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-              name: Gen dummy page
+        name: build static files
         run: |
           npm install
           npm build
