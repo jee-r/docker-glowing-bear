@@ -10,7 +10,7 @@ A docker image for [glowing-bear](https://github.com/glowing-bear/glowing-bear) 
 
 | Tags | Size | Platformss | Build |
 |-|-|-|-|
-| `latest`, `stable` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/latest?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-glowing-bear/Deploy/master?style=flat-square)
+| `latest` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/latest?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-glowing-bear/Deploy/master?style=flat-square)
 | `dev` | ![](https://img.shields.io/docker/image-size/j33r/glowing-bear/dev?style=flat-square) | `amd64` | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/jee-r/docker-glowing-bear/Deploy/dev?style=flat-square) | 
 
 # What is glowing-bear ?
