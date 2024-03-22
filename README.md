@@ -7,7 +7,7 @@
 
 
 A docker image for [glowing-bear](https://github.com/glowing-bear/glowing-bear) ![glowing-bear logo](https://raw.githubusercontent.com/glowing-bear/glowing-bear/master/src/assets/img/favicon.png)
-
+works very well with my [weechat docker image](https://github.com/jee-r/docker-weechat) :)
 
 ## What is glowing-bear ?
 
