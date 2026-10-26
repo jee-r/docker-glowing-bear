@@ -1,0 +1,25 @@
+{
+  "name": "Glowing Bear",
+  "description": "WeeChat Web frontend",
+  "version": "0.10.0",
+  "manifest_version": 2,
+  "icons": {
+    "32": "assets/img/favicon.png",
+    "128": "assets/img/glowing_bear_128x128.png"
+  },
+  "app": {
+    "urls": [
+      "https://www.glowing-bear.org/"
+    ],
+    "launch": {
+      "container": "panel",
+      "web_url": "https://www.glowing-bear.org/"
+    }
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "web_accessible_resources": [
+    "assets/img/favicon.png"
+  ]
+}
